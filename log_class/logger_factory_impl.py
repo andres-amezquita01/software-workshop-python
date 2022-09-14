@@ -18,3 +18,4 @@ class LoggerFactoryImpl(LoggerFactory):
         except KeyError:
             raise KeyError("No forma parte del menu!")
 
+
