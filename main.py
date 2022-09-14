@@ -12,8 +12,8 @@ def main() -> None:
         logger.warning('Mensage generico', 404)
         logger.error('Mensage generico', 401)
         logger.debug('Mensage generico', 500)
-    except KeyError:
-        print("error en el menu")
+    except KeyError as error:
+        print(str(error))
 
 if __name__ == '__main__':
     main()
