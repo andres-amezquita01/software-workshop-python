@@ -2,3 +2,7 @@
 2022-09-14 10:47:05.799012 [WARNING] ('Mensage generico', '404')
 2022-09-14 10:47:05.799469 [ERROR] ('Mensage generico', '401')
 2022-09-14 10:47:05.800675 [DEBUG] ('Mensage generico', '500')
+2022-09-14 13:59:57.725925 [INFO] ('Mensage generico', '200')
+2022-09-14 13:59:57.726095 [WARNING] ('Mensage generico', '404')
+2022-09-14 13:59:57.726149 [ERROR] ('Mensage generico', '401')
+2022-09-14 13:59:57.726197 [DEBUG] ('Mensage generico', '500')
