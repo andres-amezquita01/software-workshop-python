@@ -9,7 +9,7 @@ class LogMail():
       self.nivel = nivel
       self.message = message
       self.object = object
-      self.sender_email_address = "su_correo@gmail.com" 
+      self.sender_email_address = "correoalterno5000@gmail.com"
    
    def send_email(self):
       message = EmailMessage() 
@@ -18,7 +18,7 @@ class LogMail():
       message['From'] =  self.sender_email_address
       message['To'] = self.receiver_email_address
       email_smtp = "smtp.gmail.com" 
-      email_password = "clavequegeneragmail" 
+      email_password = "andres.amezquita01"
 
       now = datetime.datetime.today().strftime("%Y%m%d-%H%M%S")
 

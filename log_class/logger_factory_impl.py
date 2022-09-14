@@ -8,9 +8,15 @@ from log_class.logger_mail import LoggerMail
 class LoggerFactoryImpl(LoggerFactory):
 
     def get_logger(self, type) -> Logger:
+        raise KeyError
         dic = {
             'c': LoggerConsole(),
             'f': LoggerFile(),
             'e': LoggerMail()
         }
-        return dic[type]
+        try:
+            return dic[type]
+        except KeyError:
+            raise KeyError("no forma parte del menu!")
+            #print(f"{type} no forma parte del menu!")
+
